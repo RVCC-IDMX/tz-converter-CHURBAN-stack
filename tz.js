@@ -10,6 +10,7 @@ if (! targetTimezone ) {
     console.log('Usage: node tz <timezone> [--format]');
     process.exit(1);
   }
+
 const params = yargs.argv;
 if (params.format === true){
     formating = FORMAT; 
