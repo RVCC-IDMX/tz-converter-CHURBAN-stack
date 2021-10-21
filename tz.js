@@ -15,10 +15,5 @@ const params = yargs.argv;
 if (params.format === true){
     formating = FORMAT; 
 }
-<<<<<<< HEAD
 console.log(`The time at the ${'America/New_York'} timezone is ${moment().tz('America/New_York').format(formating)}`);
 console.log(`The time at the ${targetTimezone} timezone is ${moment().tz(targetTimezone).format(formating)}`);
-=======
-console.log(`The time at the ${'America/New_York'} timezone is ${moment().tz('America/New_York').format()}`);
-console.log(`The time at the ${targetTimezone} timezone is ${moment().tz(targetTimezone).format()}`);
->>>>>>> 9c1252ce6ce6b1086efb051022055660f1a2800b
