@@ -11,6 +11,8 @@ if (! targetTimezone ) {
     process.exit(1);
   }
 
+let formating = '';
+
 const params = yargs.argv;
 if (params.format === true){
     formating = FORMAT; 
